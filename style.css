@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Outfit;
+    src: url("Outfit/static/Outfit-Regular.ttf");
+}
+body{
+    background-color:hsl(212, 45%, 89%);
+    text-align: center;
+}
+.wrapper{
+    --width:250px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: var(--width);
+    height: fit-content;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    padding: 20px;
+}
+.QR-code{
+    background-image: url(images/image-qr-code.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--width);
+    height: var(--width);
+    border-radius: 20px;
+}
+p:nth-child(2){
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-top:20px;
+}
+p:nth-child(3){
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+@media (max-width:375px){
+    
+}
